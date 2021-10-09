@@ -21,7 +21,8 @@ class LinkContainer extends React.Component {
       //    fav.splice(favl, 1);
       //    this.setState({favLinks: fav});
       //  }
-    
+      let fav = this.state.favLinks.splice(index,1)
+      this.setState(fav)
        
   }
   
